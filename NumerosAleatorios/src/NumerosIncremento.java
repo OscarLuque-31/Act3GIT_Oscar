@@ -16,6 +16,10 @@ public class NumerosIncremento {
             segundoNumero = scanner.nextInt();
         } while (segundoNumero == primerNumero);
 
+        // Introducir el tercer número
+        System.out.print("Introduce el tercer número: ");
+        int tercerNumero = scanner.nextInt();
+
         scanner.close();
 
         // Asegurar que primerNumero es el menor
@@ -31,5 +35,11 @@ public class NumerosIncremento {
         for (int i = primerNumero; i <= segundoNumero; i += 7) {
             System.out.print(i + " ");
         }
+
+        // Mostrar el tercer número si se encuentra entre el primero y el segundo
+        if (tercerNumero > primerNumero && tercerNumero < segundoNumero) {
+            System.out.println("\nEl tercer número " + tercerNumero + " se encuentra entre " + primerNumero + " y " + segundoNumero);
+        }
     }
 }
+
