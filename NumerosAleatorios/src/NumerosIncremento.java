@@ -25,10 +25,10 @@ public class NumerosIncremento {
             segundoNumero = temp;
         }
 
-        // Mostrar los números comprendidos e incrementar de 7 en 7
+        // Mostrar los números comprendidos e incrementar de 8 en 8
         System.out.println("Números comprendidos entre " + primerNumero + " y " + segundoNumero + " (incrementando de 7 en 7):");
 
-        for (int i = primerNumero; i <= segundoNumero; i += 7) {
+        for (int i = primerNumero; i <= segundoNumero; i += 8) {
             System.out.print(i + " ");
         }
         System.out.println("hola");
