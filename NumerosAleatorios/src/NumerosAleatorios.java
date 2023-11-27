@@ -8,7 +8,7 @@ public class NumerosAleatorios {
     
     int contador = 0;
     
-    while(contador<20) {
+    while(contador<30) {
       contador++;
       int numerosAleatorios=numeros.nextInt(1,10);
       System.out.println(contador + " número aleatorio: " + numerosAleatorios);
